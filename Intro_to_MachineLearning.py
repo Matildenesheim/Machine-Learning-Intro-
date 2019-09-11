@@ -190,7 +190,7 @@ all_y_trues =np.array([
 network = OurNeuralNetwork()
 network.train(data, all_y_trues)
 
-## The loss steadily decreases as the network learns
+## CONCLUSIOIN: The loss steadily decreases as the network learns
 
 
 ## Using the network to predict genders ##
@@ -198,7 +198,7 @@ network.train(data, all_y_trues)
 #Making some predictions
 emily = np.array([-7,-3]) #128 pounds, 63 inches
 frank = np.array([20,2]) #155 pounds, 68 inches
-print("Emily: %.3f" % network.feedforward(emily)) #0.951 - F
+print("Emily: %.3f" % network.feedforward(emily)) #0.967 - F
 print("Frank: %.3f" % network.feedforward(frank)) # 0.039 - M
 
 # IT WORKS:o)
