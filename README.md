@@ -1,2 +1,2 @@
 # Machine-Learning-Intro-
-Trying to code some neurons 
+Code of a simple neural network predicting gender
